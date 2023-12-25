@@ -1,0 +1,92 @@
+// HEADER //////////////////////////
+
+header {
+	padding: 32px 0;
+	nav {
+		display: flex;
+		align-items: center;
+		justify-content: space-between;
+		.navbar {
+			display: flex;
+			align-items: center;
+			gap: 40px;
+			ul {
+				display: flex;
+				align-items: center;
+				gap: 22px;
+				li {
+					a {
+						color: #211f54;
+						font-family: Roboto;
+						font-size: 18px;
+						font-style: normal;
+						font-weight: 400;
+						line-height: 30.006px; /* 166.7% */
+						&:hover {
+							color: var(--primary-color);
+							transition: 0.3s;
+						}
+					}
+				}
+			}
+		}
+		.sales {
+			ul {
+				display: flex;
+				align-items: center;
+				gap: 24px;
+				li {
+					a {
+						color: #211f54;
+						font-family: Roboto;
+						font-size: 18px;
+						font-style: normal;
+						font-weight: 400;
+						line-height: 30.006px; /* 166.7% */
+						&:hover {
+							color: var(--primary-color);
+							transition: 0.3s;
+						}
+					}
+				}
+				button {
+					color: #fff;
+					text-align: center;
+					font-family: Roboto;
+					font-size: 16px;
+					font-style: normal;
+					font-weight: 400;
+					line-height: 18px; /* 112.5% */
+				}
+			}
+		}
+
+		#BurgerMenu {
+			display: none;
+			border: none;
+			cursor: pointer;
+			height: 37px;
+			width: 37px;
+			overflow: visible;
+            background: none;
+		}
+	}
+}
+
+@media only screen and (max-width: 918px) {
+	header {
+		.navbar {
+			ul {
+				display: none !important;
+			}
+		}
+		.sales {
+			display: none !important;
+		}
+		#BurgerMenu {
+			display: flex !important;
+            align-items: center;
+		}
+	}
+}
+

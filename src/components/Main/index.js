@@ -1,6 +1,6 @@
 import About_us from "./About_us/About_us";
 import Contacts from "./Contacts/Contacts";
-import Hero from "../Header/Header";
+import Hero from "../Main/Hero/Hero";
 import Services from "./Services/Services";
 import Articles from "./Articles/Articles";
 
