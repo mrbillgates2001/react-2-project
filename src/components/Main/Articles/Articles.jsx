@@ -5,7 +5,7 @@ import "./Articles.scss"
 
 const Articles = () => {
   return (
-    <section className="articles">
+    <section className="articles" id='articles'>
       <div className="container">
         <div className="articles-content">
           <div className="articles-heading">
